@@ -41,6 +41,32 @@ namespace AssignmentREST.Controllers
             return statusObject;
         }
 
+        public object GetStatus()
+        {
+            // Method used to generate a GUID from two different timestamps combined with a pseudo random number generator.
+            // Per the requirements the calculations will take their time (between 20 en 60 seconds). This is done via the Thread.Sleep method
+            // A second timestamp variable is created after the random waiting period in order to reduce the chances of 
+
+            long timeStamp1 = DateTimeOffset.Now.ToUnixTimeSeconds();
+
+            Random rnd = new Random();
+            int randMiliSeconds = rnd.Next(20, 55) * 1000;
+            Console.WriteLine($"The waiting time will be: {randMiliSeconds}");
+
+            //Wait
+            System.Threading.Thread.Sleep(randMiliSeconds);
+
+            long timeStamp2 = DateTimeOffset.Now.ToUnixTimeSeconds();
+
+
+            var statusObject = new StatusObject
+            {
+                GUID = timeStamp2 + timeStamp1 + randMiliSeconds
+            };
+
+            return statusObject;
+        }
+
         /*
         // GET: api/GUID
         [HttpGet]

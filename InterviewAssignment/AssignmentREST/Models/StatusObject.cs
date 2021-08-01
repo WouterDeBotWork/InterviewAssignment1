@@ -8,6 +8,7 @@ namespace AssignmentREST.Models
     
     public class StatusObject
     {
+        //Should take GUID as input
 
         public long GUID { get; set; }
 
