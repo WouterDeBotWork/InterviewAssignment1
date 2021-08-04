@@ -2,13 +2,48 @@
 @model AssignmentInterview.Pages.IndexModel
 @{
 }
+
 <div>
-    <h2>All Products</h2>
-    <ul id="products" />
+
+    <h1>Interview Assignment</h1>
+    <h3>Please provide the required info in order to start the calculation.</h3>
+
 </div>
+
 <div>
-    <h2>Search by ID</h2>
-    <input type="text" id="prodId" size="5" />
-    <input type="button" value="Search" onclick="find();" />
-    <p id="product" />
+    <!--Input fields-->
+
+    <h4>Age:</h4><input type="number" id="age" size="5" />
+    <h4>Length (cm):</h4><input type="number" id="age" size="5" />
 </div>
+
+<div>
+    <!--Start button that should be unclickable until all client side validation has succeeded-->
+
+    <input type="button" value="Start" onclick="start();" />
+    <p id="statusobject" />
+</div>
+
+
+<div>
+    <!--Progress visual will be placed here, div will remain invisible until the calculation has been started-->
+    
+</div>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+<script>
+    var uri = 'api/calculation';
+
+    function formatItem(item) {
+        return 'GUID:'+ item.guid + ' Status: ' + item.status + ' Progress: ' + item.progress + ' Result: ' + item.result;
+    }
+
+    function start() {
+        $.getJSON(uri)
+            .done(function (data) {
+                $('#statusobject').text(formatItem(data));
+            })
+            .fail(function (jqXHR, textStatus, err) {
+                $('#statusobject').text('Error: ' + err);
+            });
+    }
+</script>

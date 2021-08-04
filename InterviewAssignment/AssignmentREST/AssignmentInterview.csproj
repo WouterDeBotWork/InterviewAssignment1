@@ -6,9 +6,5 @@
     <AssemblyName>AssignmentInterview</AssemblyName>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\WebApplicationTest\WebApplicationTest.csproj" />
-  </ItemGroup>
-
 
 </Project>
