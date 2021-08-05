@@ -19,18 +19,18 @@ namespace AssignmentInterview.Controllers
         object CurrentStatusObject = new Models.StatusObject();
 
         // GET: api/<CalculationController>
-        [HttpGet]
-        public object StartCalculation()
+        [HttpGet("{age}/{length}")]
+        public object StartCalculation(int age, int length)
         {
             var statusObject = new Models.StatusObject
             {
                 GUID = Guid.NewGuid().ToString(),
                 status = "running",
                 progress = "10%",
-                //result = []
+                result = (age + length).ToString()
             };
             //Wait
-            int MiliSecondsWait = 20000;
+            int MiliSecondsWait = 2000;
             System.Threading.Thread.Sleep(MiliSecondsWait);
 
             return statusObject;
