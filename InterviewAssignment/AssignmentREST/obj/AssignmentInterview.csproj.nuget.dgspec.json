@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj": {}
+    "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj": {}
   },
   "projects": {
-    "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj": {
+    "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
+        "projectUniqueName": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
         "projectName": "AssignmentInterview",
-        "projectPath": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
-        "packagesPath": "C:\\Users\\Bones\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\obj\\",
+        "projectPath": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
+        "packagesPath": "C:\\Users\\Wouter\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bones\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wouter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

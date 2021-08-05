@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Bones\\.nuget\\packages\\": {}
+    "C:\\Users\\Wouter\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
+      "projectUniqueName": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
       "projectName": "AssignmentInterview",
-      "projectPath": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
-      "packagesPath": "C:\\Users\\Bones\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\obj\\",
+      "projectPath": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\AssignmentInterview.csproj",
+      "packagesPath": "C:\\Users\\Wouter\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\AssignmentREST\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bones\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wouter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

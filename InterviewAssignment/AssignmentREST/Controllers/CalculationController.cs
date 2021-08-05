@@ -30,7 +30,7 @@ namespace AssignmentInterview.Controllers
                 result = (age + length).ToString()
             };
             //Wait
-            int MiliSecondsWait = 2000;
+            int MiliSecondsWait = 20000;
             System.Threading.Thread.Sleep(MiliSecondsWait);
 
             return statusObject;

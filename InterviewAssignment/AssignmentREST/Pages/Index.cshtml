@@ -31,16 +31,17 @@
 </div>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
 <script>
-    var age = $('#age').val();
-    var length = $('#length').val();
-    //Remove hardcode
-    var uri = 'api/calculation/5/5'
+
 
     function formatItem(item) {
         return 'GUID:'+ item.guid + ' Status: ' + item.status + ' Progress: ' + item.progress + ' Result: ' + item.result;
     }
 
     function start() {
+        var age = $('#age').val();
+        var length = $('#length').val();
+        //Remove hardcode
+        var uri = 'api/calculation/' + age + '/' + length;
         $.getJSON(uri)
             .done(function (data) {
                 $('#statusobject').text(formatItem(data));

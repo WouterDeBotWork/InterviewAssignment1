@@ -656,19 +656,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bones\\.nuget\\packages\\": {}
+    "C:\\Users\\Wouter\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\WebApplication1test\\WebApplication1test.csproj",
+      "projectUniqueName": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\WebApplication1test\\WebApplication1test.csproj",
       "projectName": "WebApplication1test",
-      "projectPath": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\WebApplication1test\\WebApplication1test.csproj",
-      "packagesPath": "C:\\Users\\Bones\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\InterviewAssignmentABN\\InterviewAssignment1\\InterviewAssignment\\WebApplication1test\\obj\\",
+      "projectPath": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\WebApplication1test\\WebApplication1test.csproj",
+      "packagesPath": "C:\\Users\\Wouter\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\InterviewAssignment1\\InterviewAssignment\\WebApplication1test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bones\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wouter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
