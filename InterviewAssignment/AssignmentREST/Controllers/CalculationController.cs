@@ -18,7 +18,7 @@ namespace AssignmentInterview.Controllers
 
         object CurrentStatusObject = new Models.StatusObject();
 
-        // GET: api/<CalculationController>
+        // GET: api/age/length
         [HttpGet("{age}/{length}")]
         public object StartCalculation(int age, int length)
         {
