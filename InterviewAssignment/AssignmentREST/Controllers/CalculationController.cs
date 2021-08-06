@@ -25,8 +25,8 @@ namespace AssignmentInterview.Controllers
             var statusObject = new Models.StatusObject
             {
                 GUID = Guid.NewGuid().ToString(),
-                status = "running",
-                progress = "10%",
+                status = "completed",
+                progress = "100%",
                 result = (age + length).ToString()
             };
             //Wait
